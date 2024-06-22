@@ -1,0 +1,82 @@
+/*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+    font-weight: bolder;
+    color:#FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    border-color: #33381F;
+    background-color: #F4EE12;
+    
+}
+
+.hover:hover {
+    background-color: #F4EE12;
+}
+
+/*Secciones*/
+
+.titulo2 {
+    font-weight: bolder;
+    font-size: 65px;
+    color: #834E1F;
+}
+
+.texto1 {
+    font-size: 25px;
+    color: #33381F;
+}
+
+.titulo3 {
+    font-weight: bolder;
+    color: #FF7CB1;
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;
+    color: #FF7CB1;
+}
+
+.iconos{
+    color: #FF7CB1;
+    font-size: 120px;
+}
+
+/*.btn {
+    font-size: 30px;
+}*/
+
+.hover:hover {
+    background-color: #F4EE12;
+}

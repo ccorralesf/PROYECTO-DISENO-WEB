@@ -1,0 +1,62 @@
+/*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+    font-weight: bolder;
+    color:#FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    border-color: #33381F;
+    background-color: #F4EE12;
+    
+}
+
+.hover:hover {
+    background-color: #F4EE12;
+}
+
+/*Secciones*/
+
+.banner1 {
+    background-image: url("/imagenes/bannerreto6-min.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: #FFF6E0;
+    background-color: #4a0707;
+    background-blend-mode:luminosity;
+}
+
+.container-fluid1 {
+    padding-top: 210px;
+    padding-bottom: 200px;
+}

@@ -1,0 +1,82 @@
+        /*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+    font-weight: bolder;
+    color:#FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    border-color: #33381F;
+    background-color: #F4EE12;
+    
+}
+
+/*Secciones*/
+
+.fondo2 {
+    background-color: #33381F;
+
+}
+
+.fondo3 {
+    background-color: #000000e2;
+}
+
+.img-custom {
+    max-width: 100%;
+    height: auto;
+    /*height: 400px;*/
+}
+
+.texto2 {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*personalizacion del icono*/
+
+.iconos {
+    color: #d8c813;
+    font-size: 2em; /* Tamaño del icono ajustado */
+    padding: 10px; /* Espaciado interno ajustado */
+}
+
+@media (max-width: 768px) {
+    .iconos {
+        font-size: 1.5em; /* Reducción de tamaño para dispositivos más pequeños */
+    }
+}
+/*personalizacion del icono
+footer{
+    padding: 20px 0px;
+}*/

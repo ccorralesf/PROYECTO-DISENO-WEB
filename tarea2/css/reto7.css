@@ -1,0 +1,78 @@
+        /*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+    font-weight: bolder;
+    color:#FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    border-color: #33381F;
+    background-color: #F4EE12;
+    
+}
+
+/*Secciones*/
+
+/*EFECTO IMAGE HOVER*/
+/* Estilo base para la cortina */
+.image-hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo para la imagen dentro de la cortina */
+.image-hover-effect img {
+    transition: transform 0.3s ease;
+}
+
+/* Estilo para la capa de cortina transparente */
+.image-hover-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color y transparencia de la cortina */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Efecto de mostrar la cortina al hacer hover */
+.image-hover-effect:hover::before {
+    opacity: 1;
+}
+
+/* Efecto de escalar la imagen al hacer hover */
+.image-hover-effect:hover img {
+    transform: scale(1.1); /* Escalado de la imagen al hacer hover */
+}

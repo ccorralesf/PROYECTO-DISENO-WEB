@@ -1,0 +1,74 @@
+      /*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+  font-weight: bolder;
+  color:#FFF6E0;
+  padding-left: 10px;
+}
+
+.fondo1 {
+  background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnIndex {
+  background-color: #FF7CB1;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 25px;
+  border-color: #33381F;
+  border-radius: 35px;
+}
+
+.btnIndex:hover {
+  border-color: #33381F;
+  background-color: #F4EE12;
+  
+}
+
+/*Secciones*/
+
+/*.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}*/
+
+.titulo2 {
+    font-weight: bolder;
+    font-size: 65px;
+    color: #834E1F;
+}
+
+.texto1 {
+    /*font-weight: bolder;*/
+    color: #FF7CB1;
+    font-size: 25px;
+}
+
+.titulo3 {
+    font-weight: bolder;
+    color: #834E1F;
+}
+
+.hover:hover {
+    background-color: #F4EE12;
+}
+
+.ima1 {
+    height: 350px;
+    width: 350px;
+}

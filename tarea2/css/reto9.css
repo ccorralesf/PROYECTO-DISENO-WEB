@@ -1,0 +1,93 @@
+/*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/* Estilos para Header y Footer */
+.titulo1 {
+    font-weight: bolder;
+    color: #FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/* Estilos para Botón Índice */
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    background-color: #F4EE12;
+    border-color: #33381F;
+}
+
+/* Estilos para Menú de Navegación */
+.fondo2 {
+    background-color: #834E1F;
+}
+
+.navbar {
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.optmenu:active {
+    background-color: brown;
+}
+
+/* Personalización del Botón Toggler */
+.navbar-toggler {
+    background-color: #d6dbe3;
+    border: 3px solid #fff;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #a62626;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*Secciones*/
+
+.titulo2 {
+    font-weight: bolder;
+    color:#FF7CB1;
+    font-size: 60px;
+}

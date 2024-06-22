@@ -1,0 +1,72 @@
+/*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*Header - Footer*/
+
+.titulo1 {
+    font-weight: bolder;
+    color:#FFF6E0;
+    padding-left: 10px;
+}
+
+.fondo1 {
+    background-color: #33381F;
+}
+
+/*Boton Indice*/
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnIndex {
+    background-color: #FF7CB1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border-color: #33381F;
+    border-radius: 35px;
+}
+
+.btnIndex:hover {
+    border-color: #33381F;
+    background-color: #F4EE12;
+    
+}
+
+/*Secciones*/
+
+.titulo2 {
+    /*font-weight: bolder;*/
+    font-size: 25px;
+    color: #834E1F;
+}
+
+.titulo3 {
+    font-weight: bolder;
+    color: #FF7CB1;
+    font-size: 55px;
+}
+
+.texto1 {
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 25px;
+}
+
+.hover:hover {
+    background-color: #F4EE12;
+}
+
+.ima1 img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
