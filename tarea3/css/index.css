@@ -1,0 +1,258 @@
+        /*Paleta de colores
+#33381F
+#834E1F
+#FF7CB1
+#F4EE12
+#FFF6E0
+*/
+
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(100vh);
+    background-position: center;
+    background-image: url('/imgenes/banner1-min.jpg');
+    background-color: #928372;
+    background-blend-mode: multiply;
+    
+}
+
+.espacio {
+    padding: 120px 0;
+}
+
+.titulo1 {
+    color: #F4EE12;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.texto1 {
+    color: #F4EE12;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+
+/*Secciones*/
+
+.linea {
+    margin: 5rem 0;
+}
+
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.fondo0 {
+    background-color: #834E1F;
+}
+
+.titulo2 {
+    color: #FF7CB1;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.microinteraccion1 {
+    height: 450px;
+    width: 450px;
+}
+
+.titulo3 {
+    color: #F4EE12;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.titulo4 {
+    color: #FF7CB1;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+h5 {
+    color: #33381F;
+    font-weight: bolder;
+}
+
+.titulo5 {
+    color: #F4EE12;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.titulo6 {
+    color: #FF7CB1;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.titulo7 {
+    color: #F4EE12;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+
+.negrita {
+    font-weight: bolder;
+}
+
+p, label {
+    font-size:20px;
+}
+
+input:hover {
+    outline: 3px solid #FF7CB1;
+}
+
+
+.fondo1 {
+    background-color: #d6dbe3;
+}
+
+.fondo2 {
+    background-color: #d6dbe3;
+}
+
+.fondo3 {
+    background-color: #fff6e0;
+}
+
+/*EFECTO IMAGE HOVER*/
+/* Estilo base para la cortina */
+.image-hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo para la imagen dentro de la cortina */
+.image-hover-effect img {
+    transition: transform 0.3s ease;
+}
+
+/* Estilo para la capa de cortina transparente */
+.image-hover-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 124, 177, 0.5); /* Color y transparencia de la cortina */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Efecto de mostrar la cortina al hacer hover */
+.image-hover-effect:hover::before {
+    opacity: 1;
+}
+
+/* Efecto de escalar la imagen al hacer hover */
+.image-hover-effect:hover img {
+    transform: scale(1.1); /* Escalado de la imagen al hacer hover */
+}
+
+/*banner 2*/
+
+.bannerparallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(70vh);
+    background-position: center;
+    background-image: url('/imgenes/banner2.jpg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.microinteraccion2 {
+    height: 250px;
+    width: 250px;
+}
+
+/*Chat Whatsapp*/
+
+.whatsapp-chat {
+    text-align: center;
+    background-color: #33381F;
+    padding: 20px;
+}
+
+.whatsapp-chat a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-chat img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/********************* ESTILOS BOTONES ******************************/
+
+.boton1 {
+    background-color: #33381F;
+    color: #fff6e0;
+}
+
+.boton1:hover {
+    background-color: #fff6e0;
+    color: #33381F;
+}
+
+.boton2 {
+    background-color: #33381F;
+    color: #fff6e0;
+}
+
+.boton2:hover {
+    background-color: #fff6e0;
+    color: #33381F;
+}
+
+.boton3 {
+    background-color: #33381F;
+    color: #fff6e0;
+}
+
+.boton3:hover {
+    background-color: #fff6e0;
+    color: #33381F;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+
+/*Footer*/
+
+footer {
+    color: #fff;
+    background-color: #834E1F;
+}
+
+footer .copyright {
+    font-size: 1.3rem;
+}
