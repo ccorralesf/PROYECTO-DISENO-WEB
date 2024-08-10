@@ -1,0 +1,301 @@
+// Variables SCSS
+$font-size-base: 18px;
+$font-family-base: 'Poppins', sans-serif;
+$background-color-primary: #834E1F;
+$background-color-secondary: #fff6e0;
+$color-highlight: #3c3b2a;
+$color-accent: #FF7CB1;
+$color-dark: #33381F;
+$secondary-color: #FF7CB1;
+
+// Importación de fuentes web
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+// Fuente base
+html {
+  font-size: $font-size-base;
+  font-family: $font-family-base;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+p, label {
+  font-size: 1.5rem;
+}
+
+// Encabezado banner web inicial
+.banner-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-image: url('/imgenes/banner1-min.jpg');
+  background-color: #928372;
+  background-blend-mode: multiply;
+}
+
+.espacio {
+  padding: 120px 0;
+}
+
+.titulo1,
+.texto1 {
+  color: $color-highlight;
+  font-weight: bolder;
+}
+
+// Estilos para menú de navegación
+.fondo2 {
+  background-color: $background-color-primary;
+}
+
+.navbar {
+  padding: 10px 0;
+  letter-spacing: 5px;
+  color: #000;
+}
+
+.optmenu {
+  transition: all 1s solid;
+  
+  &:hover {
+    color: #fff;
+    background-color: #33381F;
+    transition: all 1s solid;
+  }
+  
+  &:active {
+    background-color: $color-accent;
+  }
+}
+
+// Personalización del botón toggler
+.navbar-toggler {
+  background-color: $secondary-color;
+  border: 3px solid;
+  margin: 0 auto;
+  
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $color-accent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,124,177)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+  &:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,124,177)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+// Secciones
+.linea {
+  margin: 5rem 0;
+}
+
+body {
+  color: #000;
+  overflow-x: hidden;
+}
+
+.fondo0 {
+  background-color: $background-color-primary;
+}
+
+.titulo2,
+.titulo3,
+.titulo4,
+.titulo5,
+.titulo6,
+.titulo7 {
+  font-weight: bolder;
+}
+
+.titulo2 {
+  color: $color-accent;
+}
+
+.titulo3 {
+  color: $color-highlight;
+}
+
+.titulo4 {
+  color: $color-accent;
+}
+
+h5 {
+  color: $color-dark;
+  font-weight: bolder;
+}
+
+.microinteraccion1 {
+  height: 450px;
+  width: 450px;
+}
+
+.microinteraccion2 {
+  height: 250px;
+  width: 250px;
+}
+
+.negrita {
+  font-weight: bolder;
+}
+
+input:hover {
+  outline: 3px solid $color-accent;
+}
+
+.fondo1 {
+  background-color: #d6dbe3;
+}
+
+.fondo2 {
+  background-color: $color-dark;
+}
+
+.fondo3 {
+  background-color: $secondary-color;
+}
+
+// Efecto image hover
+.image-hover-effect {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    transition: transform 0.3s ease;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 124, 177, 0.5); // Color y transparencia de la cortina
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+
+    img {
+      transform: scale(1.1); // Escalado de la imagen al hacer hover
+    }
+  }
+}
+
+// Banner 2
+.bannerparallax {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  background-image: url('/imgenes/banner2.jpg');
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+// Contacto
+.iconos {
+  color: $color-accent;
+  font-size: 6.5rem;
+}
+
+// Chat Whatsapp
+.whatsapp-chat {
+  text-align: center;
+  background-color: $color-dark;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+// Estilos botones
+.boton0 {
+  background-color: $color-highlight;
+  color: $color-dark;
+
+  &:hover {
+    background-color: $color-accent;
+    color: #fff;
+  }
+}
+
+.boton1,
+.boton2,
+.boton3 {
+  background-color: $color-dark;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $color-dark;
+  }
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 75px;
+  height: 50px;
+}
+
+// Footer
+footer {
+  color: #fff;
+  background-color: $background-color-primary;
+
+  .copyright {
+    font-size: 1.3rem;
+  }
+}
