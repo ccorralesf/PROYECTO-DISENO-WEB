@@ -1,0 +1,39 @@
+/*index - reglas*/
+
+@media (max-width: 576px) {
+	header p{
+		text-align: justify;
+		font-size:1.5rem;
+	}
+
+    .videoHeaderArrow a i {
+		font-size:1.8rem;
+	}
+
+    .elTigre img {
+		width: 85%;
+        height: 85%;
+	}
+
+    .masterChef img {
+		width: 850%;
+        height: 85%;
+	}
+
+    p, label, ul, li{
+        font-size: 1rem;
+    }
+
+    h2, h3 {
+        font-size: 1.8rem;
+    }
+
+    .boton2 {
+        font-size: 1rem;
+    }
+
+    .iconos{
+        font-size: 3rem;
+    }
+      
+}

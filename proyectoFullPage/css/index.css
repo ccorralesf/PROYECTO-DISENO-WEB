@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap");
+html {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff6e0;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+p, label {
+  font-size: 1.5rem;
+}
+
+.linea {
+  margin: 5rem 0;
+}
+
+
+.titulo2,
+.titulo3,
+.titulo4,
+.titulo5,
+.titulo6,
+.titulo7 {
+  font-weight: bolder;
+}
+
+.titulo2 {
+  color: #FF7CB1;
+}
+
+.titulo3 {
+  color: #3c3b2a;
+}
+
+.titulo4 {
+  color: #FF7CB1;
+}
+
+h5 {
+  color: #33381F;
+  font-weight: bolder;
+}
+
+.negrita {
+  font-weight: bolder;
+}
+
+
+.fondo1 {
+  background-color: #d6dbe3;
+}
+
+.fondo2 {
+  background-color: #33381F;
+}
+
+.fondo3 {
+  background-color: #FF7CB1;
+}
+
+.iconos {
+  color: #FF7CB1;
+  font-size: 6.5rem;
+}
+
+.boton2{
+  background-color: #33381F;
+  color: #FF7CB1;
+}
+
+.boton2:hover{
+  background-color: #FF7CB1;
+  color: #33381F;
+}
+
+/*Secciones*/
+
+
+/*header*/
+/* clases del video de fondo*/
+
+header {
+  height: 100vh;
+  background-size: cover;
+}
+
+header h1 {
+	text-shadow: 0 0 30px #fff;
+	letter-spacing: 5px;
+	/*font-size: 50px;	*/
+
+}	
+header p{	
+	/*font-size: 20px;*/
+	border-radius: 24px;
+	/*profundidad*/
+	/*usar la web para cambiar colores de la profundidad: http://hex2rgba.devoth.com/*/
+	box-shadow: inset 0 0 0 1000px rgba(244,238,18, 0.2);
+  /*244,238,18 - 255,124,177*/
+}	
+
+.titulo1,
+.texto1 {
+  color: #3c3b2a;
+  font-weight: bolder;
+}
+
+/*nav Bar*/
+
+.fondo2 {
+  background-color: #33381F;
+}
+
+
+.navbar {
+  padding: 20px;
+  letter-spacing: 3px;
+  /*color: #000;*/
+  background-color: #33381F;
+}
+
+.navbar li {
+  padding-right: 55px;
+}
+
+.optmenu {
+  transition: all 1s solid;
+}
+.optmenu:hover {
+  color: #fff;
+  background-color: #FF7CB1;
+  transition: all 1s solid;
+}
+.optmenu:active {
+  background-color: #834e1f;
+}
+
+.navbar-toggler {
+  background-color: #FFF6E0;
+  border: 3px solid;
+  margin: 0 auto;
+}
+.navbar-toggler:hover {
+  background-color: #FFF6E0;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #FFF6E0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,124,177)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,124,177)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*Seccion Logo*/
+
+.cero {
+  /*clip-path: polygon(0 0, 23% 0, 60% 48%, 24% 100%, 0 100%, 38% 48%);*/
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  width: 100%;
+  height: 100%;  
+}
+
+.uno {
+  /*clip-path: polygon(0 100%, 0 0, 100% 0, 30% 50%);*/
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Banner2*/
+.bannerparallax {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  /*background-size: cover;*/
+  height: 70vh;
+  background-position: center;
+  background-image: url("/imagenes/costilla.webp");
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+/*Seccion CAROUSEL - Algunos de nuestros platos*/
+
+
+/*tamaño de flechas*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 6rem;
+    height: 6rem;
+    /*fondo de color*/
+    background-color: #e4e4e4;
+    /*apariencia adicional*/
+    /*background-color: #0A2791;*/
+    /*border-radius: 50%;*/
+}
+
+
+/*color de flechas*/
+
+
+/*por defecto el icono tiene color blanco*/
+
+
+/*cambiar la propiedad fill por # hexadecimal*/
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*grupo de listas*/
+
+.lista:hover {
+  color: rgb(51,56,31);
+  background-color: #f4ee12;
+  border-color: rgb(51,56,31);
+  border-width: 2px;
+}
+
+
+/*Footer*/
+footer {
+  color: #fff;
+  background-color: #834E1F;
+}
+
+/*
+footer .copyright {
+  font-size: 1.3rem;
+}*/
